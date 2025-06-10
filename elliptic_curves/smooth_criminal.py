@@ -56,4 +56,3 @@ iv = data['iv'] # iv
 encrypted_flag = data['encrypted_flag'] # encrypt by shared_secret
 
 print(decrypt_flag(shared_secret, iv, encrypted_flag))
-

@@ -50,3 +50,5 @@ if (legendre(a, p)):
 
     print(''.join(chars))
     
+# a가 mod p의 qudratic residue에 속한다면, a^e도 속한다,
+# 그렇다고 해서 -a^e가 p의 quadratic residue에 속하는 것은 아니다.
